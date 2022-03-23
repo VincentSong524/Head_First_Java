@@ -15,9 +15,14 @@ class Dogs {
 class Dog{
     public static void main(String[] args) {
         
-        Dogs fido = new Dogs();
-        fido.name = "Fido";
-        fido.bark();
-        fido.chaseCat();
+        //
+        Dogs[] myDogs = new Dogs[3];
+        myDogs[0] = new Dogs();
+        myDogs[0].name = "Fido";
+        myDogs[0].bark();
+        myDogs[0].chaseCat();
+
+        myDogs[1] = new Dogs();
+        myDogs[1].name = "Marge";
     }
 }
