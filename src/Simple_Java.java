@@ -1,8 +1,11 @@
+/*
+
 int size = 27;
 String name = "Fido";
 Dog myDog = new DOg(name, size);
 x = size - 5;
-if (x < 15) myDog.bark(8);
+if (x < 15) 
+    myDog.bark(8);
 
 while (x > 3) {
     myDog.play();
@@ -21,3 +24,5 @@ try {
 catch(FileNotFoundException ex) {
     System.out.print("File not found.");
 }
+
+*/
