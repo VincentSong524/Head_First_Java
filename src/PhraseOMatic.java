@@ -1,4 +1,4 @@
-public class PhraseOMatic {
+public class PhraseOMatic { 
     public static void main (String[] args) {
 
         // 可以随意添加术语
