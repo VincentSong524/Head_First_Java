@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+大二下学期开启封校网课模式，在宿舍无聊就想把Head first java 看完 这个仓库便用来存储这本书的代码。
 
 ## Folder Structure
 
