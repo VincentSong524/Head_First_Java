@@ -1,6 +1,6 @@
 ## Getting Started
 
-大二下学期开启封校网课模式，在宿舍无聊就想把Head first java 看完 这个仓库便用来存储这本书的代码。
+It's for practice  《Head First Java》.
 
 ## Folder Structure
 
