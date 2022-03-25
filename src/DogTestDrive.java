@@ -13,7 +13,6 @@ class Dog_Bark {
     }
 }
 
-
 public class DogTestDrive {
     public static void main(String[] args) {
         Dog_Bark one = new Dog_Bark();
