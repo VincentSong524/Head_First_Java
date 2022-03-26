@@ -1,3 +1,5 @@
+import javax.xml.bind.PrintConversionEvent;
+
 class testDog {
     private int size;
 
@@ -19,7 +21,14 @@ class test {
         pets[0].setSize(30);
         int x = pets[0].getSize();
         pets[1].setSize(8);
-        //System.out.println(x);
+        System.out.println(x);
+
+
+        // 使用equals() 判断两个对象是否意义上相等
+
+       if (!pets[0].equals(pets[1])) {
+           System.out.println("False");
+       }
     }
     
 }
