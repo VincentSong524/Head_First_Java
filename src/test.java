@@ -9,10 +9,24 @@ class testDog {
         size = s;
     }
 }
+
+
+class Test1 {
+    int var;
+
+    public int Test2(int c) {
+        if (var > 100) {
+            return var;
+        } else {
+            return c;
+        }
+    }
+}
 class test {
     public static void main(String[] args) {
 
         testDog []  pets;
+        int p;
         short c = 42;
         pets = new testDog[7];
         pets[0] = new testDog();
@@ -30,6 +44,11 @@ class test {
        }
 
        pets[1].getSize();
+       Test1 test = new Test1();
+        p = test.Test2(101);
+        System.out.println(p);
     }
+
+    
     
 }
