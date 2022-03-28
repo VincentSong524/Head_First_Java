@@ -7,6 +7,8 @@ public class SimpleDotComTestDrive {
         String userGuess = "2"; // 提供假的猜测
         String result = dot.checkYourself(userGuess);   // 调用测试方法并传入假的数据
         //String testResult = "failed";
+        System.out.println(result);
+        
     }
     
 }
