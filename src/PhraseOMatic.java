@@ -16,7 +16,7 @@ public class PhraseOMatic {
         // 产生随机数字
         int rand1 = (int) (Math.random() * oneLength);
         int rand2 = (int) (Math.random() * twoLength);
-        int rand3 = (int) (Math.random() + threeLength);
+        int rand3 = (int) (Math.random() * threeLength);
 
         // 组合出专业术语
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
