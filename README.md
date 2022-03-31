@@ -1,6 +1,7 @@
 ## Getting Started
 
-It's for practice  《Head First Java》.
+Code for Head First Java
+
 
 ## Folder Structure
 
