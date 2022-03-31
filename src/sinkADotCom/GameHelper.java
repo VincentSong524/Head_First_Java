@@ -72,7 +72,7 @@ public class GameHelper {
 
             alphaCells.add(temp.concat(Integer.toString(row)));
             x++;
-            System.out.print("  coord " + x + "  + alphaCells.get(x-1");
+            //System.out.print("  coord " + x + "  + alphaCells.get(x-1");
         }
 
         //System.out.println("\n");
