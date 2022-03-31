@@ -1,24 +1,24 @@
 # 声明变量
 
-**DECLARE** and instantiate the GameHelper instance variable, named helper.
-声明并实例化GameHelper实例变量，命名为helper
+**DECLARE** and instantiate the GameHelper instance variable, named helper.  
+声明并实例化GameHelper实例变量，命名为helper  
 
-**DECLARE** and instantiate an ArrayList to hold the list of DotComs (initially three) Call it dotComList.
-声明并实例化一个ArrayList来保存DotComs的列表(最初是三个)，称之为dotComList
+**DECLARE** and instantiate an ArrayList to hold the list of DotComs (initially three) Call it dotComList.  
+声明并实例化一个ArrayList来保存DotComs的列表(最初是三个)，称之为dotComList  
 
-**DECLARE** an int variable to hold the number of user guesses (so the we can give the user a score at the end of the game). Name it numOfGuesses and set it to 0.
-声明一个int变量来保存用户猜测的次数(这样我们就可以在游戏结束时给用户一个分数)。将其命名为numof，并将其设置为0
+**DECLARE** an int variable to hold the number of user guesses (so the we can give the user a score at the end of the game). Name it numOfGuesses and set it to 0.  
+声明一个int变量来保存用户猜测的次数(这样我们就可以在游戏结束时给用户一个分数)。将其命名为numof，并将其设置为0  
 
 
 # 声明方法
 
-**DECLARE** a setUpGame() method to create and initialize the DotCom objects with names and locations.
+**DECLARE** a setUpGame() method to create and initialize the DotCom objects with names and locations.  
 
-**DECLARE** declare a startPlaying() method the asks the player for guesses and calls the checkUserGuess() method until all the DotCom objects are removed from play.
+**DECLARE** declare a startPlaying() method the asks the player for guesses and calls the checkUserGuess() method until all the DotCom objects are removed    from play.  
 
-**DECLARE** a checkUserGuess() method that loops through all remaining DotCom objects and calls each DotCom object’s checkYourself() method.
+**DECLARE** a checkUserGuess() method that loops through all remaining DotCom objects and calls each DotCom object’s checkYourself() method.  
 
-**DECLARE** a finishGame() method that prints a message about the user’s perFormance, basesd on how many guesses it took to sink all of the DotCom objects.
+**DECLARE** a finishGame() method that prints a message about the user’s perFormance, basesd on how many guesses it took to sink all of the DotCom objects.  
 
 # 实现方法
 **METHOD: void setUpGame()**
