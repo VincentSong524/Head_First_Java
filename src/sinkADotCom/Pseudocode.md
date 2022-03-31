@@ -11,42 +11,43 @@
 **DECLARE** a checkUserGuess() method that loops through all remaining DotCom objects and calls each DotCom object’s checkYourself() method.  
 **DECLARE** a finishGame() method that prints a message about the user’s perFormance, basesd on how many guesses it took to sink all of the DotCom objects.  
 # 实现方法
-
-```
 **METHOD: void setUpGame()**  
-// make three DotCom objects and name them
-	**CREATE** three DotCom objects.  
-	**SET** a name for each DotCom.  
-	**ADD** the DotComs to the dotComsList (the ArrayList).  
-	**REPEAT** with each of the DotCom objects in the dotComsList array  
-		**CALL** the placeDotCom() method on the helper object, to get a randomly-selected location for this DotCom (three cells, vertically or horizontally aligned, on a 7 X 7 grid).  
-		**SET** the location for each DotCom based on  the result of the placeDotCom() call.  
-	**END REPEAT**  
-**END METHOD** 
-``` 
+&emsp;&emsp;> make three DotCom objects and name them  
 
-**METHOD: void startPlaying()**  
-**REPEAT** while any Dot Coms exist  
-**GET** user input by calling the helper getUserInput() method  
-**EVALUATE** the user’s guess by checkUserGuess() method  
-**END REPEAT**  
+&emsp;&emsp;**CREATE** three DotCom objects.  
+&emsp;&emsp;**SET** a name for each DotCom.  
+&emsp;&emsp;**ADD** the DotComs to the dotComsList (the ArrayList).  
+&emsp;&emsp;**REPEAT** with each of the DotCom objects in the dotComsList array  
+&emsp;&emsp;&emsp;&emsp;**CALL** the placeDotCom() method on the helper object, to get a randomly-selected location for this DotCom (three cells, vertically or horizontally aligned, on a 7 X 7 grid).  
+&emsp;&emsp;&emsp;&emsp;**SET** the location for each DotCom based on  the result of the placeDotCom() call.  
+&emsp;&emsp;**END REPEAT**  
+**END METHOD**
+
+**METHOD: *void startPlaying()***  
+&emsp;&emsp;**REPEAT** while any Dot Coms exist  
+&emsp;&emsp;&emsp;&emsp;**GET** user input by calling the helper getUserInput() method  
+&emsp;&emsp;&emsp;&emsp;**EVALUATE** the user’s guess by checkUserGuess() method  
+&emsp;&emsp;**END REPEAT**  
 **END METHOD**  
+
 **METHOD: void checkUserGuess(String userGuess)**  
-// find out if there’s a hit (and kill) on ant DotCom
-**INCREMENT** the number of user guesses in the numOfGuesses variable  
-**SET** the local result variable (a String) to “miss”, assuming the the user’s guess will be a miss.  
-**REPEAT** with each of the DotObjects in the dotComList array  
-**EVALUATE** the user’s guess by calling the DotCom object’s checkYourself() method  
-**SET** the result variable to “hit” or “kill” if appropriate  
-**IF** the result if “kill”, REMOVE the DocCom from the dotComsList  
-**END REPEAT**  
-**DISPLAY** the result value to the user  
+&emsp;&emsp;> find out if there’s a hit (and kill) on ant DotCom  
+
+&emsp;&emsp;**INCREMENT** the number of user guesses in the numOfGuesses variable  
+&emsp;&emsp;**SET** the local result variable (a String) to “miss”, assuming the the user’s guess will be a miss.  
+&emsp;&emsp;**REPEAT** with each of the DotObjects in the dotComList array  
+&emsp;&emsp;&emsp;&emsp;**EVALUATE** the user’s guess by calling the DotCom object’s checkYourself() method  
+&emsp;&emsp;&emsp;&emsp;**SET** the result variable to “hit” or “kill” if appropriate  
+&emsp;&emsp;&emsp;&emsp;**IF** the result if “kill”, **REMOVE** the DocCom from the dotComsList  
+&emsp;&emsp;**END REPEAT**  
+&emsp;&emsp;**DISPLAY** the result value to the user  
 **END METHOD** 
-**METHOD: void finsihGame()**  
-**DISPLAY** a generic “game over” message, then:  
-**IF** number of user guess is small,  
-**DISPLAY** a congratulations message  
-**ELSE**  
-**DISPLAY** an insulting one  
-**END IF**  
+
+**METHOD: *void finsihGame()***  
+&emsp;&emsp;**DISPLAY** a generic “game over” message, then:  
+&emsp;&emsp;&emsp;&emsp;**IF** number of user guess is small,  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DISPLAY** a congratulations message  
+&emsp;&emsp;&emsp;&emsp;**ELSE**  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DISPLAY** an insulting one  
+&emsp;&emsp;**END IF**  
 **END METHOD**  
