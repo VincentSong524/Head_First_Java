@@ -15,7 +15,7 @@
 '''
 
 **METHOD: void setUpGame()**  
-> make three DotCom objects and name them  
+> make three DotCom objects and name them
 	**CREATE** three DotCom objects.  
 	**SET** a name for each DotCom.  
 	**ADD** the DotComs to the dotComsList (the ArrayList).  
@@ -34,7 +34,7 @@
 **END REPEAT**  
 **END METHOD**  
 **METHOD: void checkUserGuess(String userGuess)**  
-> find out if there’s a hit (and kill) on ant DotCom  
+> find out if there’s a hit (and kill) on ant DotCom
 **INCREMENT** the number of user guesses in the numOfGuesses variable  
 **SET** the local result variable (a String) to “miss”, assuming the the user’s guess will be a miss.  
 **REPEAT** with each of the DotObjects in the dotComList array  
