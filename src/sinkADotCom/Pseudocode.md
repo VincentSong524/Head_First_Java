@@ -22,8 +22,8 @@
 
 # 实现方法
 **METHOD: void setUpGame()**  
-&emsp;&emsp;> make three DotCom objects and name them  
-&emsp;&emsp;> 创建三个DotCom对象并命名它们  
+&emsp;&emsp;// make three DotCom objects and name them  
+&emsp;&emsp;// 创建三个DotCom对象并命名它们  
 
 &emsp;&emsp;**CREATE** three DotCom objects.  
 &emsp;&emsp;创建三个DotCom对象  
@@ -59,8 +59,8 @@
 **END METHOD**  
 
 **METHOD: void checkUserGuess(String userGuess)**  
-&emsp;&emsp;> find out if there’s a hit (and kill) on ant DotCom  
-&emsp;&emsp;查看 DotCom 是否有一个命中(和杀死)  
+&emsp;&emsp;// find out if there’s a hit (and kill) on ant DotCom  
+&emsp;&emsp;//查看 DotCom 是否有一个命中(和杀死)  
 
 &emsp;&emsp;**INCREMENT** the number of user guesses in the numOfGuesses variable  
 &emsp;&emsp;增加 numOfGuesses 变量中用户猜测的次数  
