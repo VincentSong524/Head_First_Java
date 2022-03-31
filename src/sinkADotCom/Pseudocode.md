@@ -11,16 +11,18 @@
 **DECLARE** a checkUserGuess() method that loops through all remaining DotCom objects and calls each DotCom object’s checkYourself() method.  
 **DECLARE** a finishGame() method that prints a message about the user’s perFormance, basesd on how many guesses it took to sink all of the DotCom objects.  
 # 实现方法
+'''
 **METHOD: void setUpGame()**  
 > make three DotCom objects and name them  
-**CREATE** three DotCom objects.  
-**SET** a name for each DotCom.  
-**ADD** the DotComs to the dotComsList (the ArrayList).  
-**REPEAT** with each of the DotCom objects in the dotComsList array  
-**CALL** the placeDotCom() method on the helper object, to get a randomly-selected location for this DotCom (three cells, vertically or horizontally aligned, on a 7 X 7 grid).  
-**SET** the location for each DotCom based on  the result of the placeDotCom() call.  
-**END REPEAT**  
-**END METHOD**  
+	**CREATE** three DotCom objects.  
+	**SET** a name for each DotCom.  
+	**ADD** the DotComs to the dotComsList (the ArrayList).  
+	**REPEAT** with each of the DotCom objects in the dotComsList array  
+		**CALL** the placeDotCom() method on the helper object, to get a randomly-selected location for this DotCom (three cells, vertically or horizontally aligned, on a 7 X 7 grid).  
+		**SET** the location for each DotCom based on  the result of the placeDotCom() call.  
+	**END REPEAT**  
+**END METHOD** 
+''' 
 **METHOD: void startPlaying()**  
 **REPEAT** while any Dot Coms exist  
 **GET** user input by calling the helper getUserInput() method  
