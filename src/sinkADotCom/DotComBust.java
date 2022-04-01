@@ -22,9 +22,9 @@ public class DotComBust {
         dotComsList.add(three);
 
         // 列出简短提示
-        System.out.println("Your goal is to sink three dot coms.");
+        System.out.println("Your goal is to sink three dot coms.(你的目标是沉没三个点阵。)");
         System.out.println("Pets.com, eToys.com, Go2.com");
-        System.out.println("Try to sink them all in the fewest number of guesses");
+        System.out.println("Try to sink them all in the fewest number of guesses(尝试以最少的猜测次数将它们全部沉没)");
 
         for (DotCom dotComToSet : dotComsList) {                    // 对list中的每个DotCom重复一次
             ArrayList<String> newLocation = helper.placeDotCom(3);  // 要求DotCom的位置
