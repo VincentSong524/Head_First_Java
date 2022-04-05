@@ -1,6 +1,6 @@
 package Animal;
 
-public class Animal {
+public abstract class Animal {
 
     String picture;
     String food;
