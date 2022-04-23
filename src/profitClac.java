@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.Box;
-import javax.swing.text.BoxView;
 
 class clac {
     
@@ -24,7 +22,7 @@ class clac {
         float OtherNumberAccounts, float reclaim) {
             
         // 返回单号利润
-        return  boxOutPrice - fare - boxInPrice - 400 + reclaim;
+        return  boxOutPrice - fare - boxInPrice - 360 + reclaim;
     }
 
     static float allProfit (float boxOutPrice,float fare, float boxInPrice,
