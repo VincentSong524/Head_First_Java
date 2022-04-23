@@ -25,7 +25,7 @@ public class GameHelper {
 
     public ArrayList<String> placeDotCom(int comSize) {
         ArrayList<String> alphaCells = new ArrayList<String>();
-        String [] alphacoords = new String [comSize];
+        //String [] alphacoords = new String [comSize];
         String temp = null;
         int [] coords = new int[comSize];
         int attempts = 0;
